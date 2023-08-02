@@ -54,7 +54,7 @@ batch_size = 1 <br>
 Init_Epoch = 0 <br>
 Fin_Epoch = 100 <br>
 
-##pre train => <br>
+#### pre train => <br>
 if pre_train: <br>
 model.load_state_dict(torch.load("/home/rvl122/paper/main/checkpoints/RTK/Japan_1_2.pth", map_location=device)["model_state_dict"]) <br>
 
