@@ -73,7 +73,7 @@ path_GT = "/home/rvl122/paper/dataset/mydataset/CCU/14322_all_dataset/gpx/Final/
 #### change weight <br>
 model.load_state_dict(torch.load("/home/rvl122/paper/main/checkpoints/CCU/shift/model_epoch_best.pth", map_location=device)["model_state_dict"]) <br>
 
-#save result <br>
+#### save result <br>
 txt_file = open('/home/rvl122/Desktop/123.txt','w') <br>
 
 
